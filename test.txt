@@ -1,0 +1,19 @@
+test_list_int (test.Test01_AddContact.test_list_int)
+*** Test01 *** Calling the 'add_contact' method passing a contact list [['Richard','Stallman']] and adding the contact ['Steve','Jobs'] should return [['Richard','Stallman'],['Steve','Jobs']] *** ... ok
+test_list_int (test.Test02_ModifyContact.test_list_int)
+*** Test02 *** Calling the 'modify_contact' method passing a contact list [['Richard','Stallman'],['Bill','Gates']] and modifing the contact at index 1 with ['Steve','Jobs'] should return [['Richard','Stallman'],['Steve','Jobs']] *** ... ok
+test_list_int (test.Test03_ModifyContact.test_list_int)
+*** Test03 *** Calling the 'modify_contact' method passing a contact list [['Richard','Stallman'],['Steve','Jobs']] and modifing the contact at index 3 shoud return 'Invalid index number.' *** ... 
+ok
+test_list_int (test.Test04_DeleteContact.test_list_int)
+*** Test04 *** Calling the 'delete_contact' method passing a contact list [['Richard','Stallman'],['Bill','Gates'],['Steve','Jobs']] and deleting the contact at index 1 should return [['Richard','Stallman'],['Steve','Jobs']] *** ... ok
+test_list_int (test.Test05_DeleteContact.test_list_int)
+*** Test05 *** Calling the 'delete_contact' method passing a contact list [['Richard','Stallman'],['Steve','Jobs']] and deleting the contact at index 3 shoud return 'Invalid index number.' *** ... 
+ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+
+
